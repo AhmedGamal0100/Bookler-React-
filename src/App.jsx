@@ -6,7 +6,7 @@ import './App.css';
 import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
 import ProtectedRoute from './routes/ProtectedRoute';
-const Login = lazy(() => import('./Pages/Login/Login'));
+const Login = lazy(() => import('./pages/Login/Login'));
 const Register = lazy(() => import('./Pages/Register/Register'));
 const Hotels = lazy(() => import('./Pages/Hotels/Hotels'));
 const Search = lazy(() => import('./pages/Search/Search'))
