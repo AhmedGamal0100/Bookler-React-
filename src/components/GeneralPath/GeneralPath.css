@@ -1,0 +1,42 @@
+.general-path {
+    padding: 12px 20px;
+    background-color: var(--white-background);
+    border-radius: 6px;
+    border: 1px solid #b8c1de86;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.general-path h3 {
+    display: inline;
+    padding-right: 10px;
+    border-right: 1.5px solid #b8c1de86;
+    color: var(--grey-color-sixth);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.general-path p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--grey-color-sixth);
+}
+
+.general-path p span {
+    color: var(--blue-color);
+}
+
+.grey-color {
+    color: #C9CACA;
+}
+
+.grey-color:hover {
+    color: #a8a8a8;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+.offer {
+    padding-right: 60px;
+}
+
+.offer__container {
+    padding: 30px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-background);
+    border-radius: 14px;
+}
+
+.offer__container h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.26%;
+    vertical-align: middle;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.offer__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.offer__card-container {
+    padding: 12px 22px;
+    border: 1px solid #ECEDF5;
+    border-radius: 180px;
+    background-color: #7C829B0D;
+}
+
+.offer__card-container:hover {
+    background-color: rgba(124, 130, 155, 0.1);
+}

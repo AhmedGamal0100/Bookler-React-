@@ -1,0 +1,8 @@
+.content-general__path {
+    margin-bottom: 48px;
+}
+
+.booking-details {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,185 @@
+.mybooking-card {
+    border-radius: 6px;
+    background-color: var(--white-background);
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    height: 175px;
+    width: 100%;
+    border: 1px solid #b8c1de86;
+    position: relative;
+    justify-content: space-between;
+}
+
+.mybooking-img {
+    border-radius: 6px 0 0 6px;
+    transition: 0.5s;
+    width: 35%;
+    height: 100%;
+}
+
+.mybooking-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+}
+
+.mybooking-content {
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 1rem;
+}
+
+
+.mybooking-upper {
+    padding-top: 1rem;
+}
+
+.mybooking-lower {
+    padding-bottom: 1rem;
+}
+
+.mybooking-content h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--primary-color);
+}
+
+.mybooking-upper p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--grey-color-first);
+    width: 90%;
+}
+
+.mybooking-amenity {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    background-color: var(--grey-color-fifth);
+    opacity: 0.8;
+    color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.mybooking-amenity:hover {
+    scale: 1.02;
+}
+
+
+.mybooking-amenities-container {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.mybooking-lower-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mybooking-lower-container p {
+    color: var(--yellow-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mybooking-lower-container p b {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--primary-color);
+}
+
+.mybooking-lower-container button:first-child {
+    background-color: #7C829B1A;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    padding-inline: 4px;
+}
+
+.mybooking-lower-container button:last-child {
+    background-color: var(--blue-background);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    padding-inline: 4px;
+}
+
+.mybooking-lower-dates div {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    position: relative;
+}
+
+.mybooking-lower-dates div span {
+    color: #33344F;
+    opacity: 0.95;
+}
+
+.mybooking-lower-from-date {
+    border-right: 1px solid #33344F;
+    padding-right: 0.5rem;
+}
+
+.mybooking-lower-dates div p,
+.mybooking-lower-icon {
+    color: #858595;
+    opacity: 0.95;
+}
+
+.mybooking-rate {
+    position: absolute;
+    background-color: var(--blue-background);
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 10.86px;
+    gap: 4px;
+    padding: 6px 10px;
+    border-radius: 4px 0 0 4px;
+    right: 0;
+    top: 19px;
+}
+
+.mybooking-rate p {
+    color: var(--white-color) !important;
+    font-weight: 700;
+    font-size: 10.86px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}

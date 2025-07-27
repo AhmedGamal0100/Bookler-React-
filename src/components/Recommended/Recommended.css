@@ -1,0 +1,62 @@
+.recommended {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) transparent;
+    margin-bottom: 66px;
+}
+
+.recommended__card-list {
+    width: 414;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+.recommended__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended__header a:hover{
+    text-decoration: underline;
+}
+
+.recommended__header h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.26%;
+    color: var(--primary-color);
+    margin-bottom: 18px;
+}
+
+.recommended__header a {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    opacity: 0.5;
+    margin-right: 56px;
+}
+
+.recommended::-webkit-scrollbar {
+    height: 8px;
+}
+
+.recommended::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+}
+
+.recommended::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}

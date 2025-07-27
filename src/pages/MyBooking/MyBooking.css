@@ -1,0 +1,28 @@
+.content-general__path {
+    margin-bottom: 24px;
+}
+
+.mybooking-details {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mybooking-notfound,
+.mybooking-profile {
+    background-color: var(--white-color);
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1px solid #b8c1de86;
+}
+
+.mybooking-profile {
+    width: 290px;
+    height: fit-content;
+}
+
+.mybooking-found {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

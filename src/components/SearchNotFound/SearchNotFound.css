@@ -1,0 +1,18 @@
+.notfound {
+    text-align: center;
+    width: 100%;
+}
+
+.notfound__container {
+    padding-right: 14rem;
+    margin-top: 1rem;
+}
+
+.notfound__container p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    color: var(--black-color);
+}

@@ -1,0 +1,14 @@
+.content-general__path {
+    margin-bottom: 24px;
+}
+
+.hotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.hotels__container {
+    transition: 0.5s;
+}

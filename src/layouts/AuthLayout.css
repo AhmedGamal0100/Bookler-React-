@@ -1,0 +1,29 @@
+.authlayout {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff !important;
+}
+
+.authlayout__container {
+    width: 723px;
+    min-height: 100%;
+    background: linear-gradient(141.08deg, #0A69DA 32.24%, #0856C8 115.93%, #0231A5 164.9%);
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.authlayout__container-cloud-a {
+    position: absolute;
+    top: 0;
+}
+
+.authlayout__container-cloud-b {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
