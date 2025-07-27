@@ -7,8 +7,8 @@ import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
 import ProtectedRoute from './routes/ProtectedRoute';
 const Login = lazy(() => import('./pages/Login/Login'));
-const Register = lazy(() => import('./Pages/Register/Register'));
-const Hotels = lazy(() => import('./Pages/Hotels/Hotels'));
+const Register = lazy(() => import('./pages/Register/Register'));
+const Hotels = lazy(() => import('./pages/Hotels/Hotels'));
 const Search = lazy(() => import('./pages/Search/Search'))
 const Details = lazy(() => import('./pages/Details/Details'))
 const Bookings = lazy(() => import('./pages/Bookings/Bookings'))
